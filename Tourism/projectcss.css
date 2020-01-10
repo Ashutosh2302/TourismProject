@@ -1,0 +1,134 @@
+h1
+{
+
+	color:brown;
+	text-transform:capitalize;
+	font-style:italic;
+	text-align:center;
+	text-shadow:2px 4px 5px yellow;
+	font-size:50px;
+}
+h2
+{
+	text-transform:capitalize;
+	font-style:italic;
+}
+header
+{
+	position:absolute;
+	left:200px;
+}
+#p1
+{	
+	color:brown;
+	text-align:center;
+	font-size:25px;
+	font-family:comic sans ms;
+    font-weight:bold;	
+	
+}
+body
+{
+	
+	background-image:url("raja5.jpg");
+}
+ul
+{
+	list-style:none;
+	
+}
+li
+{
+	background-color:#db084e;
+	border:1px solid orange;
+	float:left;
+	width:130px;
+	height:30px;
+	color:yellow;
+	text-align:center;
+	line-height:30px;
+	border-radius:2px;
+}
+*
+{
+	 margin:0px;
+	 padding:0px;
+}
+
+ a
+ {
+	 display:block;
+ }
+li:hover
+{
+	 background-color:#d2f76c;
+	 color:maroon;
+}
+#ptv
+{
+	display:none;
+}
+a:link
+{
+	color:yellow;
+	text-decoration:none;
+}
+a:visited
+{
+	color:yellow;
+	
+}
+a:hover
+{
+	color:maroon;
+}
+#container
+ {
+	 display:none;
+	position:absolute;
+     margin:0px auto;	 
+     width:60%;
+	top:93px;
+	 left:663px;
+    
+ }
+#d1
+{
+	display:none;
+	position:absolute;
+	top:90px;
+	margin:0px auto;
+	width:50%;
+	background-color:khaki;
+	left:650px;
+	height:40px;
+	text-align:center;
+	line-height:30px;
+	
+	
+}
+#main
+{
+	background-color:khaki;
+	border:5px groove blue;
+	position:absolute;
+	width:49.31%;
+	left:650px;
+	top:0px;
+	margin:50px auto;
+	height:30px;
+	margin-right:50px;
+	text-align:center;
+	line-height:30px;
+	font-size:20px;
+	font-weight:bold;
+	color:maroon;
+}
+#main:hover
+{
+	background-color:#d2f76c;
+}
+
+
+
+

@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<script src="jquery-3.3.1.js"></script>
+<script>
+ $(document).ready(function(){
+  $("#b1").click(function(){
+  if($("#b1").html()=="Click Here")
+   {
+    $(".i2").show();
+	$("#p2").show();
+	$("#ha").show();
+    $("#b1").html("hide");
+   }
+   else
+   {
+    $(".i2").hide();
+	$("#p2").hide();
+	$("#ha").hide();
+	$("#b1").html("Click Here");
+   }
+  });
+ });
+ $(document).ready(function(){
+  $("#b2").click(function(){
+   if($("#b2").html()=="Click Here")
+    {
+	 $("#b2").html("hide");
+	 $(".i3").show();
+	 $("#ha1").show();
+	 $("#p1").show();
+	}
+	else
+	{
+	 $("#b2").html("Click Here");
+	 $(".i3").hide();
+	 $("#ha1").hide();
+	 $("#p1").hide();
+	}
+  });
+ });
+</script>
+<style type="text/css">
+ body
+ {
+  background-image:url("jaipurbg.jpg");
+ }
+ #h
+ {
+  color:brown;
+  text-align:center;
+  font-style:italic;
+  text-shadow:2px 4px 5px yellow;
+  text-transform:capitalize; 
+ }
+ ul
+ {
+  font-size:25px;
+ }
+ .i2
+ {
+  display:none;
+  width:45%;
+  border:5px groove black;
+ }
+ .i3
+ {
+  display:none;
+ }
+ #p2
+ {
+  display:none;
+  text-align:justify;
+  border:5px solid brown;
+  border-radius:5px;
+  background-color:khaki;
+  padding:20px;
+  color:blue;
+ }
+  #p1
+ {
+  display:none;
+  text-align:justify;
+  border:5px solid brown;
+  border-radius:5px;
+  background-color:khaki;
+  padding:20px;
+  color:blue;
+ }
+ #ha
+ {
+  display:none;
+  color:white;
+  text-align:center;
+  text-transform:capitalize;
+  font-style:italic; 
+ }
+ #ha1
+ {
+  display:none;
+  color:maroon;
+  text-align:center;
+  text-transform:capitalize;
+  font-style:italic; 
+ }
+ #b1
+ {
+  position:absolute;
+  left:190px;
+  top:375px;
+  border:2px solid maroon;
+}
+#b2
+{
+ position:absolute;
+ left:190px;
+ border:2px solid maroon;
+}
+li
+{
+ color:yellow;
+ font-weight:bold;
+}
+#h2
+{
+ color:red;
+ font-size:30px;
+}
+</style>
+
+</head>
+<body>
+ <h1 id="h">Jaipur-The pink city</h1>
+  <img id="i1" src="jaipur1.jpg" width="325px" height="200px" border="3px" />
+  <img src="jaipur2.jpg" width="325px" height="200px" border="3px" />
+  <img src="jaipur3.jpg" width="325px" height="200px" border="3px" />
+  <img src="jaipur4.jpg" width="322px" height="200px" border="3px" />
+ <h2 id="h2">Major tourist attractions:</h2>
+ <ul>
+  <li>Chokidhani <button id="b1" style="background-color:brown ; color:yellow">Click Here</button><br><br><img class="i2" src="cd1.jpg"/> <img class="i2" src="cd2.jpg"/> <h1 id="ha">about chokidhani:</h1><p id="p2">Chokhi Dhani is a concept capturing the vibrant spirit of Rajasthan and ensuring a perfect Rajasthani experience.  Inbound and native tourists have a desire to experience the unique Rajasthani culture. The real Rajasthan, the villages, the paintings, Bani Thani art, the wall decorations, Dipak wall, the fresh air, the evening performances, the enthusiasm, the 'manuhar' (a delicate request to eat till your heart’s desire), the traditions, the costumes and at last but not least the Feelings.</p></li>
+  <li>Amber Fort <button id="b2" style="background-color:brown ; color:yellow">Click Here</button><br><br><img class="i3" src="jaipur1.jpg"/><img class="i3" src="jaipur2.jpg" /><h1 id="ha1">about amber fort:</h1><p id="p1">this is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrhapthis is a paragrha</p></li>
+  <li>Hawa Mahal</li><br>
+  <li>Nahargarh Fort</li>
+ </ul>
+ 
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="projectcss.css"/>
+<script>
+ function effect()
+ {
+  var x=document.getElementById("p1");
+  x.style.backgroundColor="orange";
+  x.style.fontStyle="italic";
+ }
+ function effectback()
+ {
+  var x=document.getElementById("p1");
+  x.style.backgroundColor="lightblue";
+  x.style.fontStyle="normal";
+ }
+ </script>
+ <script src="jquery.js"></script>
+ <script>
+  $(document).ready(function(){
+   $("#d1").click(function(){
+    $("#d2").slideToggle("slow");
+   });
+  });
+  $(document).ready(function(){
+   $("#d4").click(function(){
+    $("#d3").slideToggle("slow");
+   });
+  });
+  $(document).ready(function(){
+   $("#pt").click(function(){
+    $("#ptv").slideDown("slow");
+   });
+  });
+ $(document).ready(function(){
+   $("#pt").mouseleave(function(){
+    $("#ptv").slideUp("slow");
+   });
+  });
+ $(document).ready(function(){
+  $("#main").click(function(){
+   $("#d1").slideToggle("slow");
+   $("#container").slideToggle("slow");
+  });
+
+ });
+
+$(document).ready(function(){
+
+
+  $("#main").animate({width:"40%"},"slow");
+  $("#main").animate({height:"50px"},"slow");
+  $("#main").animate({width:"49.31%"},"slow");
+  $("#main").animate({height:"30px"},"slow");
+
+
+});
+$(document).ready(function(){
+
+  $("header").animate({left:"800px"},"slow");
+   $("header").animate({top:"500px"},"slow");
+  $("header").animate({left:"200px"},"slow");
+  $("header").animate({top:"50px"},"slow");
+
+});
+
+ </script>
+</head>
+<body>
+<br>
+<br>
+ <header>
+ <h1> padharo sa! </h1><br>
+ <p id="p1" onmouseover="effect()" onmouseout="effectback()">welcome to rajasthan tourism</p>
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="main">Menu</div>
+<div id="d1"> </div>
+ <div id="container" >
+  <ul>
+   <li>Home</li>
+   <li>About</li>
+   <li id="pt">Places to visit
+
+    <ul id="ptv">
+      <li><a href="jaipur.html">Jaipur</a></li>
+      <li><a href="jodhpur.html">Jodhpur</a></li>
+      <li><a href="udaipur.html">Udaipur</li>
+      <li><a href="jaisalmer.html">Jaisalmer</li>
+	</ul>
+
+   </li>
+   <li>Contact</li>
+   <li><a href="newform.html">Login</a></li>
+  </ul>
+
+ </div>
+
+ <br><br><br>
+ <img  src="image.jpg" width="425px" height="250px" border="8px" />
+ <img  src="rajasthan2.jpg"width="425px" height="250px" border="8px"/>
+ <img  src="rajasthan3.jpg"width="425px" height="250px" border="8px"/>
+
+
+</body>
+</html>
